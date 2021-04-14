@@ -1,0 +1,76 @@
+.section-light {
+    background-color: #ececec;
+}
+
+.text-mobile {
+    color: #2aa4c6;
+}
+
+.text-frontend {
+    color: #39b470;
+}
+
+.btn-apple {
+    color: rgb(25,170,249);
+    border-color: rgb(25,170,249);
+}
+
+.btn-android {
+    color: rgba(0, 240, 120, 0.801);
+    border-color: rgba(0, 240, 120, 0.801);
+}
+
+.btn-apple:hover {
+    background-color: rgb(25,170,249);
+}
+
+.btn-android:hover {
+    background-color: rgba(0, 240, 120, 0.801);
+}
+
+.dashboard-color {
+    color: rgb(217, 161, 242) !important;
+}
+
+.btn-dashboard {
+    background-color: rgb(217, 161, 242) !important;
+    border-color: rgb(217, 161, 242) !important;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.btn-dashboard:hover {
+    background-color: rgb(205, 115, 247) !important;
+    border-color: rgb(205, 115, 247) !important;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+.contact-info-icon-container {
+    margin-bottom: 40px;
+}
+
+.contact-info-icon-container img {
+    max-width: 120px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .auction-info-container {
+        max-width: 10000px;
+    }  
+}
+
+@media (min-width: 991px) {
+    .mobile-development-column {
+        border-right: 1px solid #dee2e6;
+    }
+
+    .frontend-development-column {
+        border-right: 1px solid #dee2e6;
+    } 
+}
