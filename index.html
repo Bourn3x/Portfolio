@@ -14,6 +14,8 @@
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+  <!--     AOS     -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- CSS Files -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/styles.css" rel="stylesheet" />
@@ -23,6 +25,7 @@
 <!-- ****   HEADER   **** -->
 
 <body class="index-page">
+  
   <div class="page-header" data-parallax="true" style="background-image: url('./assets/img/background4.gif');">
     <div class="filter"></div>
     <div class="content-center">
@@ -38,7 +41,8 @@
 
   <!-- ****   ABOUT SECTION   **** -->
   <div class="section section-light wrapper">
-    <div class="container">
+    <div class="container"
+    data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear" data-aos-offset="300">
       <div class="about-container">
         <h2 class="title text-center">About me</h2>
         <h5 class="description text-center">
@@ -152,7 +156,8 @@
 
   <!-- ****   CAROUSEL   **** -->
   <div class="section section-dark">
-    <div class="container auction-info-container">
+    <div class="container auction-info-container"
+    data-aos="fade-right" data-aos-duration="1500" data-aos-easing="linear" data-aos-offset="300">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
           <h2 class="title">Key Work Experience</h2>
@@ -304,7 +309,8 @@
 
   <!--     *********    SIDE PROJECTS SECTION      *********      -->
   <div class="section section-light">
-    <div class="container">
+    <div class="container"
+    data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear" data-aos-offset="300">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <h2 class="title text-center">Some Side Projects</h2>
@@ -474,6 +480,13 @@
   <!--  Plugin for the DatePicker, full documentation here: https://flatpickr.js.org/ -->
   <script src="./assets/js/plugins/moment.min.js"></script>
   <script src="./assets/js/paper-kit.min.js?v=2.3.1" type="text/javascript"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      mirror: false,
+    });
+  </script>
 </body>
 
 </html>
