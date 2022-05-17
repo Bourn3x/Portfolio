@@ -10,6 +10,11 @@
     color: #39b470;
 }
 
+.btn-bitcarra {
+    color: rgb(255, 0, 75);
+    border-color: rgb(255, 0, 75);
+}
+
 .btn-apple {
     color: rgb(25,170,249);
     border-color: rgb(25,170,249);
@@ -18,6 +23,10 @@
 .btn-android {
     color: rgba(0, 240, 120, 0.801);
     border-color: rgba(0, 240, 120, 0.801);
+}
+
+.btn-bitcarra:hover {
+    background-color: rgb(255, 0, 75);
 }
 
 .btn-apple:hover {
